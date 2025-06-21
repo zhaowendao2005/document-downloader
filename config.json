@@ -1,12 +1,14 @@
 {
   "sitemapPath": "sitemap.xml",
   "selectors": [
-    ".main-content",
-    "#article-body",
-    "h1",
-    "p"
+    ".theme-doc-markdown"
   ],
   "logLevel": "info",
   "logFile": "crawler.log",
-  "concurrency": 5
+  "concurrency": 5,
+  "playwright": {
+    "headless": true,
+    "timeout": 60000,
+    "waitForSelectorTimeout": 15000
+  }
 }
