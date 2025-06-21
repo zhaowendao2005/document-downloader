@@ -1,14 +1,7 @@
 {
-  "sitemapPath": "sitemap.xml",
-  "selectors": [
-    ".theme-doc-markdown"
+  "targetSelectors": [
+    ".theme-doc-markdown",
+    "article .markdown"
   ],
-  "logLevel": "info",
-  "logFile": "crawler.log",
-  "concurrency": 5,
-  "playwright": {
-    "headless": true,
-    "timeout": 60000,
-    "waitForSelectorTimeout": 15000
-  }
+  "maxWorkers": 10
 }
