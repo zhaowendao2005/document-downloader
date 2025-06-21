@@ -1,0 +1,12 @@
+{
+  "sitemapPath": "sitemap.xml",
+  "selectors": [
+    ".main-content",
+    "#article-body",
+    "h1",
+    "p"
+  ],
+  "logLevel": "info",
+  "logFile": "crawler.log",
+  "concurrency": 5
+}
